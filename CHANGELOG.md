@@ -5,6 +5,7 @@
 ### Fixes
 - fix crashing when of union's or interface type's `resolveType` function returns `undefined` or `null` (#731)
 - fix crashing when no reflected type available for fields with params decorators (#724)
+- properly transform nested array of input type classes (#737)
 
 ## v1.1.0
 ### Features
